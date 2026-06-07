@@ -11,13 +11,6 @@ export default function Carousel3D({ projects = [], onSelect }) {
   const open = (i) => {
     const p = projects[i]
     if (!p?.liveUrl) return
-    const a = document.createElement('a')
-    a.href = p.liveUrl
-    a.target = '_blank'
-    a.rel = 'noopener,noreferrer'
-    document.body.appendChild(a)
-    a.click()
-    a.remove()
     onSelect?.(p)
   }
 
