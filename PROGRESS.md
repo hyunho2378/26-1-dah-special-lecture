@@ -140,3 +140,4 @@
 | 2026-06-08 | Footer 삭제: Layout.jsx에서 Footer import·렌더 제거. Footer.jsx 파일 삭제. Footer 참조 잔존 없음 확인(profile.js의 contacts 데이터 필드는 건드리지 않음). | 완료 |
 | 2026-06-08 | WhyClaudeCode 축 라벨 한글화: whyClaudeCode.js axis.x ['Fast Result','Fine Control']→['빠른 결과','정교한 제어'], axis.y ['Beginner-Friendly','Heavy Dev']→['입문자 친화','헤비 개발']. WhyClaudeCodeSection.jsx 코드 변경 없음(데이터만). | 완료 |
 | 2026-06-08 | journey.js method[2] 수정: label '03 HARNESS'→'03 WORKFLOW', title '직접 명령하지 않는 법'→'환경을 설계하는 법', detail 필드 추가(3단계 \n 구분 텍스트). MethodSection.jsx Beat·HarnessCard 모두 beat.detail \n→<br/> 변환 렌더로 통일. 하드코딩 설명 문단 제거. | 완료 |
+| 2026-06-08 | F키 전체화면 토글: Layout.jsx에 useEffect keydown 핸들러 추가. F/f 키 → fullscreenElement 있으면 exitFullscreen, 없으면 documentElement.requestFullscreen. cleanup 제거. UI 힌트 없음. | 완료 |
