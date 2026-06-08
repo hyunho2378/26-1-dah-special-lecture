@@ -5,7 +5,7 @@ export const planning = {
     nodes: [
         { en: "MAJOR SHIFT", ko: "복수전공 전환: 디지털미디어콘텐츠전공에서 스타트업비즈니스로", icon: "shuffle" },
         { en: "DIFFERENTIATION", ko: "차별점 있는 아이디어 = 창업 기회", icon: "lightbulb" },
-        { en: "SCHOOL SUPPORT", ko: "학교의 강력한 창업 지원", icon: "rocket" },
+        { en: "PRODUCT DESIGNER JOURNEY", ko: "기획 + 디자인 + 개발 + 마케팅을 아우르는 프로덕트 디자이너로 성장", icon: "rocket" },
     ],
 }
 
